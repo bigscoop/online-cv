@@ -1,0 +1,224 @@
+lang: en
+
+title: Dmitri Karpovich CV
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Dmitri Karpovich
+  tagline: |
+    Senior Software Engineer
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  #  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: dmitri.karpovich@gmail.com
+  phone:
+  address: 8152 Opfikon, Switzerland
+  timezone:
+  citizenship: Switzerland
+  website:
+  linkedin: dmitri-karpovich
+  xing:
+  github: bigscoop
+  telegram:
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow:
+  codewars:
+  goodreads:
+  pdf: assets/pdf/Dmitri-Karpovich-Lebenslauf.pdf
+
+
+  languages:
+    title: Languages
+    info:
+      - idiom: German
+        level: C1
+
+      - idiom: English
+        level: C1
+
+      - idiom: Russian
+        level: Native
+
+      - idiom: Belarusian
+        level: Native
+
+      - idiom: Ukrainian
+        level: Fluent
+
+      - idiom: Polish
+        level: A2
+
+      - idiom: Spanish
+        level: A1
+
+  interests:
+    title: Hobbies
+    info:
+      - item: Sport (Volleyball, Beachvolleyball, Skiing, Bicycle, Fitness)
+        link:
+
+      - item: Music (playing and teaching Drums)
+        link:
+
+career-profile:
+  title: Profile
+  summary: |
+    Senior Software Engineer/Architect with huge experience in Enterprise Development.
+    Efficiency, reliability, paying attention to details belong ty my working style. 
+
+education:
+  title: Education
+  info:
+    - degree: Master of Computer Science
+      university: University of Zurich
+      time: 2007 - 2013
+      details: |
+        - Spec: Software Systems
+        - Master thesis: “Development of innovation management platform with BPMN-approach”, Altran AG  
+
+    - degree: Bachelor of Computer Science
+      university: Belarusian State University, Faculty of Applied Mathematics and Computer Science.
+      time: 2001 - 2006
+      details: |
+        - Spec: Mathematical and functional analysis, software engineering, informational technologies, computation methods
+
+experiences:
+  title: Working experience
+  info:
+    - role: Senior Software Engineer/Architect
+      time: since 07.2021
+      company: |
+        Abraxas Informatik AG, Zurich/St.Gallen
+      details: |
+        - SW-Engineering in taxation sector (Java, Spring Boot, Quarkus, Microservices, Oracle, Postgres, JPA/Hibernate, JMS, ActiveMQ, Kafka)
+        - DevOps Support (Docker, Kubernetes)
+
+    - role: Senior Software Engineer
+      time: 01.2019 - 07.2021
+      company: |
+        Credit Suisse Zurich, Zurich Cantonal Bank
+      details: |
+        - CS: IT Application Owner, SW-Engineering Finances (Java EE, Spring, Spring Boot, EclipseLink, Oracle, Weblogic Server)
+        - ZKB: SW-Engineering Finances (Java, Spring, Spring Boot, SLX, JPA/Hibernate, Oracle, ActiveMQ, Gradle)
+
+    - role: Senior Software Engineer
+      time: 10.2016 - 01.2019
+      company: |
+        Puzzle ITC GmbH, Bern/Zurich. Customer: Tamedia AG, Zurich
+      details: |
+        - SW-Engineering in Media Content Management (Spring, Spring Boot, Hibernate, Microservices)
+        - Security Engineer (Spring Boot + OAuth2 + SAML)
+        - DevOps, Continuous Integration, Continuous Delivery (Jenkins, AWS, Kubernetes, Docker)
+
+    - role: Software Architect
+      time: 02.2013 - 10.2016
+      company: |
+        Abraxas Informatik AG, Zurich
+      details: |
+        - SW-Architecture und SW-Engineering for Taxes Calculations (Java EE, Oracle, JBoss, Hibernate)
+        - SW-Optimization (Maven, Ant, Java, JBoss)
+        - DevOps, Continous Integration (Bamboo)
+        - DB-Migrations (liquibase)
+        - Continous Integration (Bamboo)
+
+    - role: System Administrator
+      time: 03.2009 - 08.2013
+      company: |
+        Accelerom AG, Zurich
+      details: |
+        - IT-Administration (Windows 2003 Server, Debian Linux)
+        - User Support (Windows XP/Vista/7)
+        - SW-Engineering (C/C++, Ruby on Rails, PHP (Joomla))
+
+    - role: Junior Java Software Engineer
+      time: 04.2009 - 11.2011
+      company: |
+        Dynamic and Distributed Information Systems Group, University of Zurich
+      details: |
+          - SW-Engineering (Java, JUnit, OWL, RDF)
+
+    - role: Senior Delphi Software Engineer/DBA
+      time: 08.2004 - 10.2007
+      company: |
+        “National Cadastral Agency”, Minsk, Belarus
+      details: |
+        - SW-Engineering: real estate/rights/operations handling software, data exchange software, countrywide electronic documents circulation software (Object Pascal, Oracle, LotusScript)
+        - DB-Administration (Oracle, Lotus Domino)
+
+    - role: Junior Software Engineer
+      time: 03.2003 - 08.2004
+      company: |
+        “Byelex Multimedia products”, Minsk, Belarus
+      details: |
+        - SW-Engineering for stock exchange operations (Delphi, Object Pascal, Oracle)
+
+    - role: Junior Software Engineer
+      time: 08.2002 - 03.2003
+      company: |
+        scientific production association “Profit”, Minsk, Belarus
+      details: |
+        - SW-Engineering: accounting software “Profit-Complex” (Object Pascal)
+
+
+certifications:
+  title: Certificates
+  list:
+    - name: Spring Professional v4.3
+      start: 2018
+      organization: Pivotal Software Inc
+      credentialid:
+      credentialurl:
+      credentialname:
+      details:
+
+    - name: JPA with Spring
+      start: 2015
+      organization: Springsource
+
+    - name: Software architecture for developers
+      start: 2014
+      organization: Simon Brown
+
+    - name: Appway fundamentals training (BPMN)
+      start: 2012
+      organization: Appway
+
+oss:
+  title: Open-source contributions
+  contributions:
+    - title: XChange
+      link: "https://github.com/knowm/XChange"
+      tagline: "Java library providing a simple and consistent API for interacting with 60+ Bitcoin and other crypto currency exchanges, providing a consistent interface for trading and accessing market data"
+
+    - title: Online-cv
+      link: "https://github.com/sharu725/online-cv"
+      tagline: "A minimal Jekyll Theme to host your resume (CV)"
+
+    - title: Cryptopus
+      link: "https://github.com/puzzle/cryptopus"
+      tagline: "Ruby on rails web application for storing and sharing passwords and other sensitive data. All data is stored encrypted in a database, safe from third party access"
+
+skills:
+  title: IT-Skills
+
+  toolset:
+    - name: Java, Java EE, JPA,
+    - name: Quarkus, Spring, Spring Boot
+    - name: MQ, Kafka
+    - name: CI/CD, DDD, TDD, Jenkins, ArgoCD, Docker, Kubernetes
+    - name: Scrum, Agile, Jira, Waterfall
+    - name: Maven, Gradle, Ant
+    - name: RDBMS, SQL, Oracle, MySQL, PostgreSQL
+    - name: Object Pascal, C/C++, Assembler, PHP, Perl, Python, LotusScript, BPMN (Appway)
+    - name: Git, SVN
+    - name: Linux, Windows
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

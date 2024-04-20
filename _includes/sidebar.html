@@ -1,6 +1,14 @@
 {% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
 
+  {% if site.languages.size > 1 %}
+  <div class="language-switcher">
+    {% for tongue in site.languages %}
+    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+    {% endfor %}
+  </div>
+  {% endif %}
+
   <div class="profile-container">
 
     {% if sidebar.avatar %}

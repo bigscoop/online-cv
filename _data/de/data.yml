@@ -1,3 +1,7 @@
+lang: de
+
+title: Dmitri Karpovich Lebenslauf
+
 sidebar:
   position: right # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -102,7 +106,7 @@ experiences:
       details: |
         CS: IT Application Owner, SW-Entwicklung Finanzsektor (Java EE, Spring, Spring Boot, EclipseLink, Oracle, Weblogic Server)
 
-        ZKB: SW-Entwicklung Finanzsektor (Java, Spring, Spring Boot, SLX, JPA/Hibernate, Oracle, ActiveMq, Gradle)
+        ZKB: SW-Entwicklung Finanzsektor (Java, Spring, Spring Boot, SLX, JPA/Hibernate, Oracle, ActiveMQ, Gradle)
 
     - role: Senior Software Engineer
       time: 10.2016 - 01.2019
