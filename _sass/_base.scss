@@ -44,6 +44,8 @@ p {
 }
 
 .sidebar-wrapper {
+  grid-column: span 3;
+  order: $sidebar-order;
   background: $theme-color;
   position: absolute;
   right: 0;
@@ -158,6 +160,8 @@ p {
 }
 
 .main-wrapper {
+  grid-column: span 7;
+  order: $resume-order;
   background: #fff;
   padding: 60px;
   padding-right: 300px;
@@ -202,19 +206,22 @@ p {
       //margin-bottom: 30px;
     }
   }
-  .upper-row {
+  .upper-row,
+  .second-upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
   }
-  .job-title, .cert-title, .degree {
+  .job-title, .cert-title, .degree,
+  .cert-title{
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
     //font-weight: 500;
   }
-  .time {
+  .time,
+  .cert-url {
     position: absolute;
     right: 0;
     top: 0;
@@ -225,7 +232,8 @@ p {
     color: $text-color-secondary;
   }
 
-  .university {
+  .university,
+  .cert-org {
     margin-bottom: 10px;
     color: $text-color-secondary;
   }
@@ -258,6 +266,7 @@ p {
     margin-bottom: 12px;
   }
   .level-bar {
+    display: none;
     height: 12px;
     background: $smoky-white;
     @include border-radius(2px);
