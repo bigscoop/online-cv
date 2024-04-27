@@ -35,11 +35,6 @@ host: 0.0.0.0
 safe: false
 
 
-plugins:
-  - jekyll-polyglot
 
 languages: ["en", "de"]
 default_lang: "de"
-exclude_from_localization: ["javascript", "images", "css", "public"]
-parallel_localization: true
-lang_from_path: true
