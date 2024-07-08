@@ -95,7 +95,7 @@ experiences:
     - role: Senior Software Engineer/Architect
       time: since 07.2021
       company: |
-        Abraxas Informatik AG, Zurich/St.Gallen
+        Customer: Abraxas Informatik AG, Zurich/St. Gallen
       details: |
         - SW-Engineering in taxation sector (Java, Spring Boot, Quarkus, Microservices, Oracle, Postgres, JPA/Hibernate, JMS, ActiveMQ, Kafka)
         - DevOps Support (Docker, Kubernetes)
@@ -103,7 +103,7 @@ experiences:
     - role: Senior Software Engineer
       time: 01.2019 - 07.2021
       company: |
-        Credit Suisse Zurich, Zurich Cantonal Bank
+        Q-Perior Bern/Zürich. Customers: Credit Suisse Zurich, ZKB
       details: |
         - CS: IT Application Owner, SW-Engineering Finances (Java EE, Spring, Spring Boot, EclipseLink, Oracle, Weblogic Server)
         - ZKB: SW-Engineering Finances (Java, Spring, Spring Boot, SLX, JPA/Hibernate, Oracle, ActiveMQ, Gradle)
